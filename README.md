@@ -14,3 +14,5 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+Fixed a small typo in README file.
+vamsi krishna gajjela
