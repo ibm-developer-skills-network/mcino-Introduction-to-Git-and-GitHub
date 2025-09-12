@@ -1,16 +1,9 @@
-# Introduction to Git and GitHub
+git checkout -b bug-fix-typo
 
-## Simple Interest Calculator
+# Edita README.md según la instrucción del lab (el “typo” del footer, etc.)
+# Ejemplo rápido (si aplica exactamente):
+# sed -i 's/2022 XYZ, Inc./2023 XYZ, Inc./' README.md
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
-
-```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
-
-_© 2022 XYZ, Inc._
+git add README.md
+git commit -m "Fix README footer year"
+git push -u origin bug-fix-typo
