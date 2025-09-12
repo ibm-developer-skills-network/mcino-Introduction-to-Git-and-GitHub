@@ -16,3 +16,5 @@ Output
 _© 2022 XYZ, Inc._
 
 This line was added as part of the Coursera Git CLI lab.
+
+This change is from the bug-fix-typo branch.
