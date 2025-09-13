@@ -14,3 +14,5 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+Este proyecto demuestra cómo usar Git y GitHub.
