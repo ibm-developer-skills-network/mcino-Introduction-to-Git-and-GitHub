@@ -1,0 +1,10 @@
+{
+  "full_name": "ZakiMoradi/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "owner": {
+    "login": "ZakiMoradi"
+  },
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
