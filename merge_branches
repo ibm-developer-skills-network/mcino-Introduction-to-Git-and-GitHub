@@ -1,0 +1,14 @@
+White@Gevorg-Home MINGW64 ~/documents/github/github-final-project (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+White@Gevorg-Home MINGW64 ~/documents/github/github-final-project (main)
+$ git merge origin/bug-fix-typo
+Updating e0e4efc..bd02201
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+White@Gevorg-Home MINGW64 ~/documents/github/github-final-project (main)
+$
