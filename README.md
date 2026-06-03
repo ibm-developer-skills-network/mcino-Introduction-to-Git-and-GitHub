@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Introduction to Git and GitHub
 
 ## Simple Interest Calculator
@@ -15,6 +16,9 @@ Output
 ```
 
 _© 2023 XYZ, Inc._
+=======
+# coding-project-template
+>>>>>>> parent of d8324ad (Update README.md)
 =======
 # coding-project-template
 >>>>>>> parent of d8324ad (Update README.md)
