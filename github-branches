@@ -1,0 +1,4 @@
+hongviet@HongVietsMacbookPro16-3 mcino-Introduction-to-Git-and-GitHub % git branch -vv
+  bug-fix-revert 68ea6c9 Fix typo in footer from 2022 to 2026
+  bug-fix-typo   68ea6c9 Fix typo in footer from 2022 to 2026
+* main           8d2f6f5 [origin/main: ahead 2] Revert "Fix typo in footer from 2022 to 2026"
