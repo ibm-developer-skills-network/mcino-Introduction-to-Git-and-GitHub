@@ -1,0 +1,5 @@
+curl -s "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?head=abdulrahmankreishan-a11y:bug-fix-typo"
+[
+
+]
+Bug fix typo change
