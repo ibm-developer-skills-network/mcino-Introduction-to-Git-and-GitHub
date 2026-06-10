@@ -1,2 +1,2 @@
-curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/$PR_ID | jq -r '.head.repo.clone_url'
-https://github.com/mostafa-farag3392/mcino-Introduction-to-Git-and-GitHub.git
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8302 | jq -r '.head.repo.clone_url'
+https://github.com/ur77ec17235/mcino-Introduction-to-Git-and-GitHub.git
