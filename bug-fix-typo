@@ -1,0 +1,6 @@
+D:\Andrew\Coursera\Labs\lab2\mcino-Introduction-to-Git-and-GitHub>git merge bug-fix-typo
+Updating e2dbada..3979392
+Fast-forward
+ bug-fix-typo | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 bug-fix-typo
