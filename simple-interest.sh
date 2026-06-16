@@ -13,7 +13,7 @@
 
 # Output:
 # simple interest = p*t*r
-
+# revieved By Sharat Revankar
 echo "Enter the principal:"
 read p
 echo "Enter rate of interest per year:"
