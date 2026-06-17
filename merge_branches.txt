@@ -1,0 +1,13 @@
+git commit -m "change in footer"
+[bug-fix-typo 2c1e7f5] change in footer
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+theia@theia-mail2shilpak:/home/project/mcino-
+Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+theia@theia-mail2shilpak:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug
+-fix-typo
+Updating 3bce63e..2c1e7f5
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
