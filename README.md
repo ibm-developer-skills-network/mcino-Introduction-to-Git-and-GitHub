@@ -16,3 +16,5 @@ Output
 _© 2022 XYZ, Inc._
 
 This repository contains a simple interest calculator.
+
+This line is added for the bug-fix-revert pull request.
