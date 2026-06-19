@@ -18,3 +18,5 @@ _© 2022 XYZ, Inc._
 This repository contains a simple interest calculator.
 
 This line is added for the Task 7 merge output.
+
+This line is added for the Task 8 pull request.
