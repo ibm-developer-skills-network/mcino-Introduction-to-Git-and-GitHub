@@ -1,0 +1,246 @@
+theia@theia-anilhaksever:/home/project$ curl -s https://api.github.com/repos/<username>/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+bash: username: No such file or directory
+theia@theia-anilhaksever:/home/project$ curl -s https://api.github.com/repos/shotwn/mcino-Introduction-to-Git
+-and-GitHub | jq -r '.parent.clone_url'
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+theia@theia-anilhaksever:/home/project$ ls
+theia@theia-anilhaksever:/home/project$ clone https://api.github.com/repos/shotwn/mcino-Introduction-to-Git
+-and-GitHub                            
+bash: clone: command not found
+bash: -and-GitHub: command not found
+theia@theia-anilhaksever:/home/project$ git clone https://api.github.com/repos/shotwn/mcino-Introduction-to-G
+it-and-Github
+Cloning into 'mcino-Introduction-to-Git-and-Github'...
+fatal: unable to access 'https://api.github.com/repos/shotwn/mcino-Introduction-to-Git-and-Github/': The requested URL returned error: 403
+theia@theia-anilhaksever:/home/project$ git clone https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git
+Cloning into 'mcino-Introduction-to-Git-and-GitHub'...
+remote: Enumerating objects: 35, done.
+remote: Total 35 (delta 0), reused 0 (delta 0), pack-reused 35 (from 1)
+Receiving objects: 100% (35/35), 17.46 KiB | 17.46 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+theia@theia-anilhaksever:/home/project$ git config --glocal user.email "anilhaksever@gmail.com"
+error: unknown option `glocal'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+theia@theia-anilhaksever:/home/project$ git config --global user.email "anilhaksever@gmail.com"
+theia@theia-anilhaksever:/home/project$ git config --global user.name "shotwn"
+theia@theia-anilhaksever:/home/project$ 
+theia@theia-anilhaksever:/home/project$ git checkout bug-fix-typo
+fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+theia@theia-anilhaksever:/home/project$ ls
+mcino-Introduction-to-Git-and-GitHub
+theia@theia-anilhaksever:/home/project$ cd mcino-Introduction-to-Git-and-GitHub/
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-typo
+error: pathspec 'bug-fix-typo' did not match any file(s) known to git
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch bug-fix-typo
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push
+fatal: The current branch bug-fix-typo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug-fix-typo
+
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --set-upstream origin bux-fix-typo
+error: src refspec bux-fix-typo does not match any
+error: failed to push some refs to 'https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git logh
+git: 'logh' is not a git command. See 'git --help'.
+
+The most similar command is
+        log
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git log 
+commit 5bf1b16ac01cfc4decddad3bdc9e083ad98d8163 (HEAD -> bug-fix-typo, main)
+Author: shotwn <anilhaksever@gmail.com>
+Date:   Fri Jun 19 12:10:08 2026 -0400
+
+    added tutorial console output
+
+commit 9b26ba92f618acd2be04ef2f4ee7d47a5e620499
+Author: shotwn <anilhaksever@gmail.com>
+Date:   Fri Jun 19 12:09:55 2026 -0400
+
+    fix copyright year
+
+commit ad95b0abe521c61effc692e83d5babd5fbf25910 (origin/main, origin/HEAD)
+Author: ritikaj23 <128594913+ritikaj23@users.noreply.github.com>
+Date:   Thu Sep 4 15:32:47 2025 +0530
+
+    Create close_pr.yml
+    
+    Updated as per old repo
+
+commit 13af26282502789ba67b5038a822688b5b206644
+Author: ritikaj23 <128594913+ritikaj23@users.noreply.github.com>
+Date:   Thu Sep 4 15:31:21 2025 +0530
+
+
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git reset
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git log
+commit 5bf1b16ac01cfc4decddad3bdc9e083ad98d8163 (HEAD -> main, bug-fix-typo)
+Author: shotwn <anilhaksever@gmail.com>
+Date:   Fri Jun 19 12:10:08 2026 -0400
+
+    added tutorial console output
+
+commit 9b26ba92f618acd2be04ef2f4ee7d47a5e620499
+Author: shotwn <anilhaksever@gmail.com>
+Date:   Fri Jun 19 12:09:55 2026 -0400
+
+    fix copyright year
+
+commit ad95b0abe521c61effc692e83d5babd5fbf25910 (origin/main, origin/HEAD)
+Author: ritikaj23 <128594913+ritikaj23@users.noreply.github.com>
+Date:   Thu Sep 4 15:32:47 2025 +0530
+
+    Create close_pr.yml
+    
+    Updated as per old repo
+
+commit 13af26282502789ba67b5038a822688b5b206644
+Author: ritikaj23 <128594913+ritikaj23@users.noreply.github.com>
+Date:   Thu Sep 4 15:31:21 2025 +0530
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git reset origin
+Unstaged changes after reset:
+M       README.md
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch remove bug-fix-typo
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ ls
+CODE_OF_CONDUCT.md  LICENSE    compound_interest.py  simple-interest.sh
+CONTRIBUTING.md     README.md  forked-repo.txt
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch bug-fix-typo
+fatal: A branch named 'bug-fix-typo' already exists.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch remove bug-fix-typo
+fatal: A branch named 'remove' already exists.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branh -rm bug-fix-typo    
+git: 'branh' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -rm bug-fix-typo
+fatal: A branch named 'bug-fix-typo' already exists.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch --help          
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -d bug-fix-typo
+error: The branch 'bug-fix-typo' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D bug-fix-typo'.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -D bug-fix-typo
+Deleted branch bug-fix-typo (was 5bf1b16).
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch list
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ ls
+CODE_OF_CONDUCT.md  LICENSE    compound_interest.py  simple-interest.sh
+CONTRIBUTING.md     README.md  forked-repo.txt
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -D list        
+Deleted branch list (was ad95b0a).
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -l     
+* main
+  remove
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch -D remove
+Deleted branch remove (was 5bf1b16).
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-typo
+error: pathspec 'bug-fix-typo' did not match any file(s) known to git
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git branch bug-fix-typo
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-typo
+M       README.md
+Switched to branch 'bug-fix-typo'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout bug-fix-typo
+Switched to branch 'bug-fix-typo'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push
+fatal: The current branch bug-fix-typo has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug-fix-typo
+
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --set-upstream origin bug-fix-typo
+Username for 'https://github.com': shotwn
+Password for 'https://shotwn@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git/'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --set-upstream origin bug-fix-typo
+Username for 'https://github.com': shotwn
+Password for 'https://shotwn@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git/'
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push --set-upstream origin bug-fix-typo
+Username for 'https://github.com': shotwn 
+Password for 'https://shotwn@github.com': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 702 bytes | 702.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
+remote:      https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-typo
+remote: 
+To https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git
+ * [new branch]      bug-fix-typo -> bug-fix-typo
+Branch 'bug-fix-typo' set up to track remote branch 'bug-fix-typo' from 'origin'.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge --help
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git merge bug-fix-typo
+Updating ad95b0a..d408971
+Fast-forward
+ README.md       | 2 +-
+ forked-repo.txt | 3 +++
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+ create mode 100644 forked-repo.txt
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ git push
+Username for 'https://github.com': shotwn
+Password for 'https://shotwn@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shotwn/mcino-Introduction-to-Git-and-GitHub.git
+   ad95b0a..d408971  main -> main
+theia@theia-anilhaksever:/home/project/mcino-Introduction-to-Git-and-GitHub$ 
