@@ -12,3 +12,4 @@ Input:
 Output
    simple interest = p*t*r/100
 ```
+Project updated for Git CLI task.
