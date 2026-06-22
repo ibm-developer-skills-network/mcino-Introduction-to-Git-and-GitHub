@@ -14,3 +14,4 @@ Output
 ```
 
 _© 2026 XYZ, Inc._
+Typo fixed.
