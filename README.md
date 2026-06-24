@@ -2,6 +2,9 @@
 
 ## Simple Interest Calculator
 
+## Author
+Pham Tan Phuoc
+
 A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
 ```
