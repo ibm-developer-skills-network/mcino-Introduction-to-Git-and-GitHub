@@ -1,4 +1,4 @@
-# Introduction to Git and GitHub
+simple interest = p * t * rsimple interest = p * t * r # Introduction to Git and GitHub
 
 ## Simple Interest Calculator
 
