@@ -1,0 +1,3 @@
+theia@theia-vladimirkriv:/home/project$ cttps://api.github.com/rep
+url -s https://api.github.com/repos/vk1972/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
