@@ -1,6 +1,6 @@
 # Coursera Git Final Project
 
-This repositry contains the final project artifacts for the Coursera Introduction to Git and GitHub course.
+This repository contains the final project artifacts for the Coursera Introduction to Git and GitHub course.
 
 ## Project Details
 
