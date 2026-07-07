@@ -1,0 +1,303 @@
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % cd simple-interest.sh
+cd: not a directory: simple-interest.sh
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout -b Changes need to test
+fatal: Cannot update paths and switch to branch 'Changes' at the same time.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        mcino-Introduction-to-Git-and-GitHub/
+
+nothing added to commit but untracked files present (use "git add" to track)
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout
+Your branch is up to date with 'origin/main'.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git branch apply changes
+fatal: not a valid object name: 'changes'
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout -b apply changes
+fatal: 'changes' is not a commit and a branch 'apply' cannot be created from it
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git branch "apply changes"
+fatal: 'apply changes' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config set advice.refSyntax false"
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git branch update simple interest
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --[no-]verbose    show hash and subject, give twice for upstream branch
+    -q, --[no-]quiet      suppress informational messages
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --[no-]set-upstream-to <upstream>
+                          change the upstream info
+    --[no-]unset-upstream unset the upstream info
+    --[no-]color[=<when>] use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --[no-]abbrev[=<n>]   use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --[no-]delete     delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --[no-]move       move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --[no-]omit-empty     do not output a newline after empty formatted refs
+    -c, --[no-]copy       copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --[no-]list       list branch names
+    --[no-]show-current   show current branch name
+    --[no-]create-reflog  create the branch's reflog
+    --[no-]edit-description
+                          edit the description for the branch
+    -f, --[no-]force      force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --[no-]column[=<style>]
+                          list branches in columns
+    --[no-]sort <key>     field name to sort on
+    --[no-]points-at <object>
+                          print only branches of the object
+    -i, --[no-]ignore-case
+                          sorting and filtering are case insensitive
+    --[no-]recurse-submodules
+                          recurse through submodules
+    --[no-]format <format>
+                          format to use for the output
+
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git branch -m update simple interest
+fatal: too many arguments for a rename operation
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout -b updatesimoleinterest
+Switched to a new branch 'updatesimoleinterest'
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git add .
+warning: adding embedded git repository: mcino-Introduction-to-Git-and-GitHub
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> mcino-Introduction-to-Git-and-GitHub
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached mcino-Introduction-to-Git-and-GitHub
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git status
+On branch updatesimoleinterest
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   mcino-Introduction-to-Git-and-GitHub
+        modified:   simple-interest.sh
+
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push origin main
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git commit -m updatesimoleinterest
+[updatesimoleinterest b0d6350] updatesimoleinterest
+ 2 files changed, 2 insertions(+)
+ create mode 160000 mcino-Introduction-to-Git-and-GitHub
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push --set --upstream origin updatesimoleinterest
+error: unknown option `upstream'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push main 
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push main updatesimoleinterest
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git status
+On branch updatesimoleinterest
+nothing to commit, working tree clean
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % main
+zsh: command not found: main
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout main
+warning: unable to rmdir 'mcino-Introduction-to-Git-and-GitHub': Directory not empty
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout updatesimoleinterest
+Switched to branch 'updatesimoleinterest'
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push origin main
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 1.38 KiB | 236.00 KiB/s, done.
+From https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub
+ * branch            main       -> FETCH_HEAD
+   ad95b0a..7fffeba  main       -> origin/main
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+fatal: Need to specify how to reconcile divergent branches.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git rebase main
+Current branch updatesimoleinterest is up to date.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push origin main
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push --upstream origin updatesimoleinterest
+error: unknown option `upstream'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git push --set-upstream origin updatesimoleinterest
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 427 bytes | 427.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'updatesimoleinterest' on GitHub by visiting:
+remote:      https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub/pull/new/updatesimoleinterest
+remote: 
+To https://github.com/gopalgk53/mcino-Introduction-to-Git-and-GitHub.git
+ * [new branch]      updatesimoleinterest -> updatesimoleinterest
+branch 'updatesimoleinterest' set up to track 'origin/updatesimoleinterest'.
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git checkout main
+warning: unable to rmdir 'mcino-Introduction-to-Git-and-GitHub': Directory not empty
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub % git merge updatesimoleinterest
+Updating ad95b0a..b0d6350
+Fast-forward
+ mcino-Introduction-to-Git-and-GitHub | 1 +
+ simple-interest.sh                   | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 160000 mcino-Introduction-to-Git-and-GitHub
+gopalakrishnagk53@192 mcino-Introduction-to-Git-and-GitHub 
