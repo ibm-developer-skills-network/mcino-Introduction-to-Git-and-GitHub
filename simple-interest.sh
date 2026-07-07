@@ -13,6 +13,7 @@
 
 # Output:
 # simple interest = p*t*r
+#need to update the file for a test
 
 echo "Enter the principal:"
 read p
