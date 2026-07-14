@@ -1,12 +1,16 @@
-#!/bin/bash
+# Introduction to Git and GitHub
 
-read -p "Enter Principal amount: " principal
-read -p "Enter Rate of Interest (%): " rate
-read -p "Enter Time period in years: " time
+## Simple Interest Calculator
 
-simple_interest=$(echo "scale=2;($principal*$rate*$time)/100" | bc)
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-echo "Principal Amount : $principal"
-echo "Rate of Interest : $rate%"
-echo "Time Period      : $time years"
-echo "Simple Interest  : $simple_interest"
+```
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
+```
+
+_© 2022 XYZ, Inc._
