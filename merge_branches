@@ -1,0 +1,14 @@
+PS D:\University\Coding\Project\mcino-Introduction-to-Git-and-GitHub> git checkout -b  bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+PS D:\University\Coding\Project\mcino-Introduction-to-Git-and-GitHub> git add .
+>> git commit -m "Edited Readme.md"
+[bug-fix-typo c6f96a1] Edited Readme.md
+ 1 file changed, 9 insertions(+), 13 deletions(-)
+PS D:\University\Coding\Project\mcino-Introduction-to-Git-and-GitHub> git checkout main
+>> git merge bug-fix-typo
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Updating ad95b0a..c6f96a1
+Fast-forward
+ README.md | 22 +++++++++-------------
+ 1 file changed, 9 insertions(+), 13 deletions(-)   
