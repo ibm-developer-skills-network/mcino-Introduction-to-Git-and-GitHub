@@ -1,6 +1,6 @@
 # Introduction to Git and GitHub
 
-## Simple Interest Calculator
+## Simple Interest Calculator Project
 
 A calculator that calculates simple interest given the principal amount, annual
 rate of interest, and time period in years by Jahnvi Vyas.
