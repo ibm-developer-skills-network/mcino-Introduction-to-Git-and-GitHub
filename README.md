@@ -63,7 +63,3 @@ Total Amount = 11000
 ## Formula
 
 Simple Interest = (Principal × Rate × Time) / 100
-
-## Author
-
-IBM Skills Network Final Project
