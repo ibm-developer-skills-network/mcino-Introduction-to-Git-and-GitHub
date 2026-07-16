@@ -1,16 +1,20 @@
-# Introduction to Git and GitHub
+# Python Simple Interest Calculator
 
-## Simple Interest Calculator
+## About the Project
+A command-line tool designed to calculate both simple and compound interest. This project demonstrates core programming logic and scripting execution using Python and Shell. 
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+## Features
+* **Simple Interest Calculation:** A bash script (`simple-interest.sh`) that computes basic interest given a principal amount, annual rate, and time period.
+* **Compound Interest Calculation:** A Python script (`compound_interest.py`) for more advanced financial modeling.
 
-```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
+## Getting Started
+To run this project locally, clone the repository and execute the scripts directly from your terminal.
 
-_© 2022 XYZ, Inc._
+### Prerequisites
+* Python 3.x installed on your local machine.
+* A terminal environment (Bash/Zsh).
+
+### Usage Example
+```bash
+# Execute the simple interest shell script
+./simple-interest.sh
