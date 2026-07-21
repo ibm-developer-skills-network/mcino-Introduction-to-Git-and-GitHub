@@ -1,0 +1,5 @@
+PS D:\Abid iqbal\gitandgithub\project1\forked-repo> git checkout main
+Already on 'main'
+
+PS D:\Abid iqbal\gitandgithub\project1\forked-repo> git merge bug-fix-typo
+Already up to date.
