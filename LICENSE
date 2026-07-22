@@ -173,6 +173,28 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
+Accepting Warranty
+
+This software is provided for demonstration and educational purposes only.
+The project maintainer may choose to provide limited assistance, bug fixes,
+or updates at their sole discretion. Any such assistance does not constitute
+a formal warranty or guarantee of continued support.
+
+Additional Liability
+
+The author shall not be liable for any direct, indirect, incidental, special,
+or consequential damages resulting from the use or misuse of this software.
+Users assume all responsibility for testing the software before deploying it
+in any production environment. By using this project, users acknowledge that
+the software is provided solely as a demonstration and agree to use it at
+their own risk.
+
+Support Policy
+
+Support, maintenance, and future updates are provided on a best-effort basis.
+The author reserves the right to discontinue development or support at any
+time without prior notice.
+
    END OF TERMS AND CONDITIONS
 
    APPENDIX: How to apply the Apache License to your work.
