@@ -14,3 +14,5 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+Simple interest is calculated as: principal * rate * time / 100
