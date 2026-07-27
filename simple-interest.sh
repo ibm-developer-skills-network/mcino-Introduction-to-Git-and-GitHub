@@ -14,13 +14,13 @@
 # Output:
 # simple interest = p*t*r
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
+echo "Ingrese el capital inicial:"
+read capital
+echo "Ingrese la tasa de interés anual:"
+read tasa
+echo "Ingrese el período de tiempo en años:"
+read tiempo
 
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+# Cálculo: Interés = (capital * tasa * tiempo) / 100
+interes=$(echo "scale=2; $capital * $tasa * $tiempo / 100" | bc)
+echo "El interés simple es: $interes"
