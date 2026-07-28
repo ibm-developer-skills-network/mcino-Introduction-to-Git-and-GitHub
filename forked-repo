@@ -1,0 +1,16 @@
+curl -s https://api.github.com/repos/<ErgashevAbdulakhad>/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+
+{
+  "id": 309130699,
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "ErgashevAbdulakhad/mcino-Introduction-to-Git-and-GitHub",
+        "fork": true,
+          "parent": {
+              "id": 1050225087,
+                  "name": "mcino-Introduction-to-Git-and-GitHub",
+                      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+                          "owner": {
+                                "login": "ibm-developer-skills-network"
+                                    }
+                                      }
+                                      }
