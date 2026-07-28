@@ -1,0 +1,12 @@
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/4663
+{
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/4663",
+    "state": "open",
+      "head": {
+          "label": "ErgashevAbdulakhad:main",
+              "repo": {
+                    "full_name": "ErgashevAbdulakhad/mcino-Introduction-to-Git-and-GitHub",
+                          "fork": true
+                              }
+                                }
+                                }
