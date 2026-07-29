@@ -14,7 +14,4 @@ Output
    simple interest = p*t*r
 ```
 
-_© 2022 XYZ, Inc._
-=======
-# coding-project-template
->>>>>>> parent of d8324ad (Update README.md)
+2022 XYZ, Inc.
