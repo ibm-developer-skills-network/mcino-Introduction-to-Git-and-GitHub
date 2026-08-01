@@ -4,7 +4,7 @@
 
 # Author: Upkar Lidder (IBM)
 # Addtional Authors:
-# wizkie02
+# <your Github username>
 
 # Input:
 # p, principal amount
@@ -21,6 +21,6 @@ read r
 echo "Enter time period in years:"
 read t
 
-s=$(echo "$p * $t * $r / 100" | bc -l)
+s=$(expr $p \* $t \* $r / 100)
 echo "The simple interest is: "
 echo $s
