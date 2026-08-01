@@ -21,6 +21,6 @@ read r
 echo "Enter time period in years:"
 read t
 
-s=$(echo "$p * $t * $r / 1000" | bc -l)
+s=$(echo "$p * $t * $r / 100" | bc -l)
 echo "The simple interest is: "
 echo $s
