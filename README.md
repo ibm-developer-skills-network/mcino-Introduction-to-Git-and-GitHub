@@ -14,6 +14,3 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
-
-
-... error 404 ...
