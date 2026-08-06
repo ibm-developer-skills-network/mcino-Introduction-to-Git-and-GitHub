@@ -13,7 +13,7 @@
 
 
 def compound_interest(p, t, r):
-    return p * (pow((1 + r / 100), t))
+    return p * (pow((1 + r / 200), t))
 
 
 if __name__ == "__main__":
