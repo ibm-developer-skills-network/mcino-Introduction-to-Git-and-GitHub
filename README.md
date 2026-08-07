@@ -1,3 +1,5 @@
-# Introducton to Git and GitHub - Final Project
+# github-final-project
 
-This repository contains my completed final project for the Introduction to Git and GitHub course. It demonstrates GitHub UI workflows (forking, branching, pull requests) and Git CLI commands (cloning, committing, merging, pushing).
+This is a Simple Interest Calculator project. It includes a Bash script (`simple-interest.sh`) that calculates simple interest based on user input for principal, rate of interest, and time period.
+
+This repository also demonstrates GitHub UI and Git CLI workflows from the Introduction to Git and GitHub course, including forking, cloning, branching, merging, and pull requests.
