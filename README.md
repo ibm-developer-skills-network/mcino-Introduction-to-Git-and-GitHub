@@ -15,4 +15,3 @@ Output
 
 _© 2022 XYZ, Inc._
 This repository is for GitHub learning tasks.
-
