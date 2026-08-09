@@ -1,0 +1,5 @@
+% curl -s https://api.github.com/repos/khuntmeetmeet-beep/mcino-Introduction-to-Git-and-GitHub | jq '{fork: .fork, parent: .parent.full_name}'
+{
+  "fork": true,
+  "parent": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
