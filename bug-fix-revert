@@ -1,0 +1,20 @@
+$ curl.exe -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10063
+
+{
+  "number": 10063,
+  "state": "closed",
+  "title": "Bug fix revert",
+  "head": {
+    "label": "zayy-06:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "zayy-06/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main"
+  },
+  "merged": false
+}
