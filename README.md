@@ -52,3 +52,4 @@ The script will prompt you to enter the principal amount, rate of interest, and 
 ### Output
 
 The calculated simple interest based on the values entered by the user.
+
