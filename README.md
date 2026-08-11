@@ -23,3 +23,9 @@ chmod +x simple-interest.sh
 ```
 
 _© 2022 XYZ, Inc._
+
+### Assignment branches
+
+- `bug-fix-typo`: typo fix for script authorship comments
+- `bug-fix-revert`: branch used for the pull request workflow
+
