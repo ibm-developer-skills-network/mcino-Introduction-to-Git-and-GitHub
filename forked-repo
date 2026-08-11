@@ -1,0 +1,11 @@
+$ curl -s "https://api.github.com/repos/Swathi1028/mcino-Introduction-to-Git-and-GitHub"
+
+{
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "Swathi1028/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
