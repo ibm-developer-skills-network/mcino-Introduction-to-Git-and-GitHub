@@ -14,5 +14,3 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
-
-Typo correction for the simple interest calculator project.
