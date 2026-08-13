@@ -74,3 +74,5 @@ This project follows a [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcomi
 ## License
 
 This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
+This project demonstrates Git and GitHub workflows.
+
