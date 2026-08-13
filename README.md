@@ -17,3 +17,7 @@ Simple Interest = (Principal × Rate × Time) / 100
 ## Project Name
 
 Simple Interest Calculator
+
+## Bug Fix
+
+Fixed a typo in the project documentation.
