@@ -14,3 +14,6 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+### Bug Fix
+This README update is part of the bug-fix-typo branch.
