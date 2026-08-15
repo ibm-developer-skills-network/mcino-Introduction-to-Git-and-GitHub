@@ -1,0 +1,17 @@
+# 1. Clone your fork locally
+git clone https://github.com/clivetzhanero-ai/mcino-Introduction-to-Git-and-GitHub.git
+cd mcino-Introduction-to-Git-and-GitHub
+
+# 2. Create and switch to bug-fix-typo branch
+git checkout -b bug-fix-typo
+
+# 3. Edit README.md and commit the change
+echo "\nFix typo in README" >> README.md
+git add README.md
+git commit -m "Fix typo in README file"
+git push origin bug-fix-typo
+
+# 4. Switch to main and merge bug-fix-typo
+git checkout main
+git merge bug-fix-typo
+git status
