@@ -1,0 +1,5 @@
+curl -s https://api.github.com/repos/MeetVasave20/mcino-Introduction-to-Git-and-GitHub | findstr /C:"fork" /C:"full_name"
+
+"full_name": "MeetVasave20/mcino-Introduction-to-Git-and-GitHub",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
