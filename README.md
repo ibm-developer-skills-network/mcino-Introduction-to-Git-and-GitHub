@@ -1,6 +1,6 @@
 # Simple Interest Calculator
 
-This project is a simple Bash script that calculates **simple interest** based on user input.
+This the newest project is a simple Bash script that calculates **simple interest** based on user input.
 
 ## Description
 The `simple-interest.sh` script prompts the user to enter:
