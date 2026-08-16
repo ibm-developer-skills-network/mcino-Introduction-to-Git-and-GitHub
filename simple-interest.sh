@@ -1,26 +1,45 @@
 #!/bin/bash
-# This script calculates simple interest given principal, annual rate of interest and time period in years.
-# Do not use this in production. Sample purpose only.
+# ============================================================
+# Simple Interest Calculator
+# ------------------------------------------------------------
+# Calculates simple interest based on user input.
+#
+# Formula:  Simple Interest = (P x R x T) / 100
+#
+#   P = Principal amount
+#   R = Annual rate of interest (%)
+#   T = Time period in years
+# ============================================================
 
-# Author: Upkar Lidder (IBM)
-# Addtional Authors:
-# <your Github username>
+echo "====================================="
+echo "     SIMPLE INTEREST CALCULATOR"
+echo "====================================="
 
-# Input:
-# p, principal amount
-# t, time period in years
-# r, annual rate of interest
+# --- Read the principal amount ---
+read -p "Enter the principal amount: " principal
 
-# Output:
-# simple interest = p*t*r
+# --- Read the annual rate of interest ---
+read -p "Enter the annual rate of interest (%): " rate
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
+# --- Read the time period in years ---
+read -p "Enter the time period (in years): " time
 
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+# --- Validate that all three inputs were provided ---
+if [ -z "$principal" ] || [ -z "$rate" ] || [ -z "$time" ]; then
+    echo "Error: All three values are required. Please try again."
+    exit 1
+fi
+
+# --- Calculate the simple interest and the total amount ---
+interest=$(echo "scale=2; ($principal * $rate * $time) / 100" | bc)
+amount=$(echo "scale=2; $principal + $interest" | bc)
+
+# --- Display the results ---
+echo "-------------------------------------"
+echo "Principal        : $principal"
+echo "Rate of Interest : $rate %"
+echo "Time Period      : $time year(s)"
+echo "-------------------------------------"
+echo "Simple Interest  : $interest"
+echo "Total Amount     : $amount"
+echo "====================================="
