@@ -14,5 +14,3 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
-
-Typo fix for merge assignment.
