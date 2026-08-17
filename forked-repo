@@ -1,0 +1,9 @@
+$ curl -s https://api.github.com/repos/chandrakantpatil0008/mcino-Introduction-to-Git-and-GitHub | grep -E '"fork"|"full_name"|"parent"'
+
+"full_name": "chandrakantpatil0008/mcino-Introduction-to-Git-and-GitHub",
+"fork": true,
+"parent": {
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"fork": false,
