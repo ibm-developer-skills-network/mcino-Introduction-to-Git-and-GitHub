@@ -15,3 +15,4 @@ Output
 
 _© 2022 XYZ, Inc._
 Type fix
+Revert fix
