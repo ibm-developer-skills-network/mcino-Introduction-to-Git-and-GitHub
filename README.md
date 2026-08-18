@@ -36,3 +36,5 @@ Make the script executable:
 
 ```bash
 chmod +x simple-interest.sh
+
+Bug Fix: Corrected a typo in the Simple Interest Calculator documentation.
