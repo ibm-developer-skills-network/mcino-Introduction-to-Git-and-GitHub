@@ -1,0 +1,5 @@
+curl -s https://api.github.com/repos/25se02ml422-bot/mcino-Introduction-to-Git-and-GitHub | grep -i "full_name\|fork\|parent"
+
+"full_name": "25se02ml422-bot/mcino-Introduction-to-Git-and-GitHub",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
