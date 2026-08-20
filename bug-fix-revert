@@ -1,0 +1,10 @@
+curl https://api.github.com/repos/kharchekhushee/mcino-Introduction-to-Git-and-GitHub/pulls/10449
+
+{
+  "number": 10449,
+  "head": {
+    "repo": {
+      "full_name": "kharchekhushee/mcino-Introduction-to-Git-and-GitHub"
+    }
+  }
+}
