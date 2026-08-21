@@ -12,5 +12,5 @@ Input:
 Output
    simple interest = p*t*r
 ```
-"this is a simple project"
+"this is a very simple project"
 _© 2022 XYZ, Inc._
