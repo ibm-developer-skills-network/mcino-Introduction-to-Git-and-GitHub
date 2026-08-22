@@ -1,0 +1,10 @@
+PS> git branch -a
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+PS> git branch -vv
+  bug-fix-typo 1914363 [origin/bug-fix-typo] Fix typo in README
+* main         1914363 [origin/main] Fix typo in README
