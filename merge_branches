@@ -1,0 +1,8 @@
+git checkout main
+Switched to branch 'main'
+
+git merge bug-fix-typo
+Updating XXXXXXX..XXXXXXX
+Fast-forward
+ filename | 1 +
+ 1 file changed, 1 insertion(+)
