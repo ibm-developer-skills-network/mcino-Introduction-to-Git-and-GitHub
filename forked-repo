@@ -1,0 +1,5 @@
+curl -s https://api.github.com/repos/Vachigubhu/simple-interest | grep -E '"fork"|"full_name"'
+
+"full_name": "Vachigubhu/simple-interest",
+"fork": true,
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
