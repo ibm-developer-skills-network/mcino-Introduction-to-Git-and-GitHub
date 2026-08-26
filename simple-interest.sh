@@ -3,8 +3,8 @@
 # Do not use this in production. Sample purpose only.
 
 # Author: Upkar Lidder (IBM)
-# Addtional Authors:
-# <your Github username>
+# Additional Authors:
+# illus1um
 
 # Input:
 # p, principal amount
@@ -21,6 +21,6 @@ read r
 echo "Enter time period in years:"
 read t
 
-s=$(expr $p \* $t \* $r / 100)
+s=$(echo "$p * $t * $r / 100" | bc -l)
 echo "The simple interest is: "
 echo $s
