@@ -1,0 +1,6 @@
+$ git commit -m "Add temporary assignment note"
+[main 06255c7] Add temporary assignment note
+ 1 file changed, 2 insertions(+)
+$ git revert --no-edit HEAD
+[main 5a0c6e1] Revert "Add temporary assignment note"
+ 1 file changed, 2 deletions(-)

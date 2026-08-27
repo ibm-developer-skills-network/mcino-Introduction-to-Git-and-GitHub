@@ -1,0 +1,3 @@
+$ git branch -vv
+  bug-fix-typo e0266aa Fix typo in simple interest script
+* main         5a0c6e1 [origin/main: ahead 3] Revert "Add temporary assignment note"
