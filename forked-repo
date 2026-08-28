@@ -1,0 +1,9 @@
+PS C:\Users\Lenovo> curl.exe -s https://api.github.com/repos/mayurkalek36/mcino-Introduction-to-Git-and-GitHub | Select-String '"full_name"|"fork"|"parent"'
+
+  "full_name": "mayurkalek36/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "fork": false,
