@@ -1,4 +1,4 @@
-curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10693
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10693
 {
   "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/10693",
   "id": 4384023417,
@@ -105,7 +105,7 @@ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduc
       "has_downloads": false,
       "has_discussions": false,
       "has_pull_requests": true,
-      "pushed_at": "2026-08-28T10:00:38Z",
+      "pushed_at": "2026-08-28T10:50:20Z",
       "created_at": "2026-08-28T09:24:25Z",
       "updated_at": "2026-08-28T10:01:41Z",
       "allow_forking": true,
