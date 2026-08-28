@@ -1,0 +1,9 @@
+curl -s https://api.github.com/repos/TAYAASHRI/mcino-Introduction-to-Git-and-GitHub
+
+{
+  "full_name": "TAYAASHRI/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
