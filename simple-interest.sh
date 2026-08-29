@@ -20,3 +20,4 @@ echo "----------------------------------------"
 echo "Interes Simple generado: $interest"
 echo "Monto total acumulado:   $total"
 echo "----------------------------------------"
+# Fix typo
