@@ -1,9 +1,8 @@
-git branch
-* bug-fix-typo
-  main
-samiransarkar@Samirans-MacBook-Air mcino-Introduction-to-Git-and-GitHub % git checkout main
+git checkout main
 Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-samiransarkar@Samirans-MacBook-Air mcino-Introduction-to-Git-and-GitHub % git merge bug-fix-typo
-Updating b2ef699..62cfaf3
+
+git merge bug-fix-typo
+Updating 97a6749..8132745
 Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
