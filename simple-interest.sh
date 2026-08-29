@@ -1,26 +1,22 @@
 #!/bin/bash
-# This script calculates simple interest given principal, annual rate of interest and time period in years.
-# Do not use this in production. Sample purpose only.
 
-# Author: Upkar Lidder (IBM)
-# Addtional Authors:
-# <your Github username>
+echo "----------------------------------------"
+echo " Calculadora de Interes Simple (Bash)   "
+echo "----------------------------------------"
 
-# Input:
-# p, principal amount
-# t, time period in years
-# r, annual rate of interest
+read -p "Introduce el capital principal (P): " p
+read -p "Introduce la tasa de interes anual (%) (R): " r
+read -p "Introduce el periodo de tiempo en anos (T): " t
 
-# Output:
-# simple interest = p*t*r
+if [[ -z "$p" || -z "$r" || -z "$t" ]]; then
+  echo "Error: Todos los campos son obligatorios."
+  exit 1
+fi
 
-echo "Enter the principal:"
-read p
-echo "Enter rate of interest per year:"
-read r
-echo "Enter time period in years:"
-read t
+interest=$(echo "scale=2; ($p * $r * $t) / 100" | bc)
+total=$(echo "scale=2; $p + $interest" | bc)
 
-s=$(expr $p \* $t \* $r / 100)
-echo "The simple interest is: "
-echo $s
+echo "----------------------------------------"
+echo "Interes Simple generado: $interest"
+echo "Monto total acumulado:   $total"
+echo "----------------------------------------"
