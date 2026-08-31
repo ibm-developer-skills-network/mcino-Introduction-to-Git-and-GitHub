@@ -12,5 +12,5 @@ Input:
 Output
    simple interest = p*t*r
 ```
-
+This project is a simple interest calculator.
 _© 2022 XYZ, Inc._
