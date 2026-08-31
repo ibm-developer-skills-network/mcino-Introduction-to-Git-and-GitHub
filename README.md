@@ -1,3 +1,4 @@
+This project demonstrates Git and GitHub workflows.
 # Introduction to Git and GitHub
 
 ## Simple Interest Calculator
