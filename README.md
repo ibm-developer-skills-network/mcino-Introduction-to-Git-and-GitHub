@@ -13,4 +13,5 @@ Output
    simple interest = p*t*r
 ```
 echo "Fixing a typo" >> README.md
+echo "typo fixed" > typo.txt
 _© 2022 XYZ, Inc._
