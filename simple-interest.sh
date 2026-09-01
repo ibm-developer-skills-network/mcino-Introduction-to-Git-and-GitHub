@@ -3,7 +3,7 @@
 # Do not use this in production. Sample purpose only.
 
 # Author: Upkar Lidder (IBM)
-# Addtional Authors:
+# Additional Authors:
 # fatohezz1317-maker
 
 # Input:
