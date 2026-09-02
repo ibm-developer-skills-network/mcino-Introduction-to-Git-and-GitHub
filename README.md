@@ -14,3 +14,5 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+Bug fix: corrected simple interest calculation documentation.
+
