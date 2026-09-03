@@ -1,0 +1,6 @@
+git checkout main 
+git merge bug-fix-typo 
+Updating 9ee230b..a227632 
+Fast-forward 
+ README.md | 2 +- 
+ 1 file changed, 1 insertion(+), 1 deletion(-) 
