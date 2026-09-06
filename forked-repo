@@ -1,3 +1,4 @@
+curl https://api.github.com/repos/wannabecoder1729/mcino-Introduction-to-Git-and-GitHub
 {
   "id": 1359392654,
   "node_id": "R_kgDOUQavjg",
@@ -66,8 +67,8 @@
   "releases_url": "https://api.github.com/repos/wannabecoder1729/mcino-Introduction-to-Git-and-GitHub/releases{/id}",
   "deployments_url": "https://api.github.com/repos/wannabecoder1729/mcino-Introduction-to-Git-and-GitHub/deployments",
   "created_at": "2026-09-06T17:57:42Z",
-  "updated_at": "2026-09-06T17:57:42Z",
-  "pushed_at": "2025-09-04T10:02:47Z",
+  "updated_at": "2026-09-06T18:15:47Z",
+  "pushed_at": "2026-09-06T18:15:35Z",
   "git_url": "git://github.com/wannabecoder1729/mcino-Introduction-to-Git-and-GitHub.git",
   "ssh_url": "git@github.com:wannabecoder1729/mcino-Introduction-to-Git-and-GitHub.git",
   "clone_url": "https://github.com/wannabecoder1729/mcino-Introduction-to-Git-and-GitHub.git",
@@ -76,7 +77,7 @@
   "size": 18,
   "stargazers_count": 0,
   "watchers_count": 0,
-  "language": null,
+  "language": "Python",
   "has_issues": false,
   "has_projects": true,
   "has_downloads": false,
@@ -194,7 +195,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 9661,
+    "forks_count": 9662,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -215,7 +216,7 @@
 
     ],
     "visibility": "public",
-    "forks": 9661,
+    "forks": 9662,
     "open_issues": 48,
     "watchers": 17,
     "default_branch": "main"
@@ -305,7 +306,7 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 9661,
+    "forks_count": 9662,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
@@ -326,11 +327,11 @@
 
     ],
     "visibility": "public",
-    "forks": 9661,
+    "forks": 9662,
     "open_issues": 48,
     "watchers": 17,
     "default_branch": "main"
   },
-  "network_count": 9661,
+  "network_count": 9662,
   "subscribers_count": 0
 }
