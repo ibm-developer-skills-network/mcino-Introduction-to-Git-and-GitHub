@@ -4,7 +4,7 @@
 
 A simple interest calculator that calculates simple interest using the principal amount, annual rate of interest, and time period in years.
 
-### Inputs
+### Inputs values
 
 - `p` - Principal amount
 - `r` - Annual rate of interest
