@@ -1,6 +1,6 @@
 # Simple Interest Calculator
 
-This project provides a Bash calculator that computes simple interest from a
+This project provdes a Bash calculator that computes simple interest from a
 principal amount, annual rate of interest, and time period.
 
 ## Usage
