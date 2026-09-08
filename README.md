@@ -28,3 +28,4 @@ Simple Interest = (Principal × Rate × Time) / 100
    *(or `bash simple-interest.sh`)*
 3. When prompted, enter the principal, rate of interest per year, and time period in years.
 4. The script will output the calculated simple interest.
+Fixed typo.
