@@ -1,0 +1,9 @@
+PS C:\Users\Ale\Desktop\Coursera> curl.exe -sS -L "https://api.github.com/repos/aledev33/mcino-Introduction-to-Git-and-GitHub/pulls/1" | ConvertFrom-Json | Select-Object number,state,merged,merged_at,html_url,@{Name='head_repository';Expression={$_.head.repo.full_name}},@{Name='head_is_fork';Expression={$_.head.repo.fork}} | Format-List
+
+number          : 1
+state           : closed
+merged          : True
+merged_at       : 08/09/2026 05:20:19 a. m.
+html_url        : https://github.com/aledev33/mcino-Introduction-to-Git-and-GitHub/pull/1
+head_repository : aledev33/mcino-Introduction-to-Git-and-GitHub
+head_is_fork    : True

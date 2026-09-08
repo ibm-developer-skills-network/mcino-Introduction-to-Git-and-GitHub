@@ -1,0 +1,9 @@
+PS C:\Users\Ale\Desktop\Coursera> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+PS C:\Users\Ale\Desktop\Coursera> git merge bug-fix-typo
+Updating 8b702df..d1b75dc
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)

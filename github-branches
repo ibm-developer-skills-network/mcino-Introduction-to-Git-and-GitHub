@@ -1,0 +1,5 @@
+PS C:\Users\Ale\Desktop\Coursera> git branch -a -vv
+  bug-fix-typo                d1b75dc [origin/bug-fix-typo] Fix README typo
+* main                        d1b75dc [origin/main] Fix README typo
+  remotes/origin/bug-fix-typo d1b75dc Fix README typo
+  remotes/origin/main         d1b75dc Fix README typo
