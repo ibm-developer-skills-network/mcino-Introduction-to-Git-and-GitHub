@@ -1,4 +1,5 @@
 curl command
-+
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/11148| jq -r '.head.repo.clone_url'
+
 curl output showing:
 https://github.com/eeemrann/mcino-Introduction-to-Git-and-GitHub.git
