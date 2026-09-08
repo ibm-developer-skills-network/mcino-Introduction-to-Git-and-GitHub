@@ -1,6 +1,6 @@
-PS C:\Users\Ale\Desktop\Coursera> curl.exe -sS -L "https://api.github.com/repos/aledev33/mcino-Introduction-to-Git-and-GitHub" | ConvertFrom-Json | Select-Object full_name,fork,@{Name='parent';Expression={$_.parent.full_name}},html_url | Format-List
+PS C:\Users\Ale\Desktop\Coursera> curl.exe -sS -L "https://api.github.com/repos/aledev33/github-final-project" | ConvertFrom-Json | Select-Object full_name,fork,@{Name='parent';Expression={$_.parent.full_name}},html_url | Format-List
 
-full_name : aledev33/mcino-Introduction-to-Git-and-GitHub
+full_name : aledev33/github-final-project
 fork      : True
 parent    : ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
-html_url  : https://github.com/aledev33/mcino-Introduction-to-Git-and-GitHub
+html_url  : https://github.com/aledev33/github-final-project
