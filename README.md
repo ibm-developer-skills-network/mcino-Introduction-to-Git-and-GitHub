@@ -10,7 +10,7 @@ Input:
    t, time period in years
    r, annual rate of intrest
 Output
-   simple interest = p*t*r.
+   simple interest = p*t*r
 ```
 
 _© 2022 XYZ, Inc._
