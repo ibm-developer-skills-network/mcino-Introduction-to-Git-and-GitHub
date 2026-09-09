@@ -26,3 +26,4 @@ echo "The simple interest is: "
 echo $s
 This is a bug fix
 This is a bug fix
+This is a bug fix
