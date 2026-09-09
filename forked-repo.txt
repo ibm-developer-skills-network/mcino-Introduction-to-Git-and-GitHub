@@ -1,2 +1,14 @@
 theia@theia-ayomideshogb:/home/project/mcino-Introduction-to-Git-and-GitHub$ curl -s https://api.github.com/repos/Jedidiah-Show/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'       
 https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+
+theia@theia-ayomideshogb:/home/project/mcino-Introd
+uction-to-Git-and-GitHub$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+theia@theia-ayomideshogb:/home/project/mcino-Introd
+uction-to-Git-and-GitHub$ git merge bug-fix-typo
+Updating 7a21e6d..304a206
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
