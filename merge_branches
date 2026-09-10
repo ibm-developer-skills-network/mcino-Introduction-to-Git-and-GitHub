@@ -1,0 +1,8 @@
+git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+git merge bug-fix-typo
+Actualizando f362006..685a2c6
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
