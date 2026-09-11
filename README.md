@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introduction to Git and GitHub
 
 ## Simple Interest Calculator
@@ -14,3 +15,4 @@ Output
 ```
 
 _© 2023 XYZ, Inc._
+
