@@ -14,4 +14,3 @@ Output
 ```
 
 _2023 XYZ, Inc.
-_
