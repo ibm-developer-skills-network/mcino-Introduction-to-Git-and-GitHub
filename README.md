@@ -18,3 +18,5 @@ _© 2022 XYZ, Inc._
 ## Bug Fix
 
 This section demonstrates a typo correction using Git branches.
+
+This change demonstrates branch merging in Git.
