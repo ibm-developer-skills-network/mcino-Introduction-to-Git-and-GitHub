@@ -21,6 +21,8 @@ read r
 echo "Enter time period in years:"
 read t
 
-s=$(expr $p \* $t \* $r / 100)
+# Use awk so decimal rates (e.g. 7.5) are handled correctly.
+# expr is integer-only and fails with "non-integer argument".
+s=$(awk -v p="$p" -v t="$t" -v r="$r" 'BEGIN { printf "%.2f", p * t * r / 100 }')
 echo "The simple interest is: "
 echo $s
