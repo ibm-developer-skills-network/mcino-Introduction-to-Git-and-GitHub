@@ -1,0 +1,10 @@
+git checkout main
+Switched to branch 'main'
+
+git merge bug-fix-typo
+Updating 8d29deb..248bfb4
+Fast-forward
+ README.md | 2 +-
+ mcino-Introduction-to-Git-and-GitHub | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 160000 mcino-Introduction-to-Git-and-GitHub
