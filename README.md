@@ -1,4 +1,4 @@
-# Introduction to Git and GitHub
+﻿# Introduction to Git and GitHub
 
 ## Simple Interest Calculator
 
@@ -9,8 +9,8 @@ Input:
    p, principal amount
    t, time period in years
    r, annual rate of interest
-Output
+Output:
    simple interest = p*t*r
 ```
 
-_© 2022 XYZ, Inc._
+_Â© 2022 XYZ, Inc._
