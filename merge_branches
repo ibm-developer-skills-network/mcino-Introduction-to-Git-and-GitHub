@@ -1,0 +1,5 @@
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+$ git merge bug-fix-typo
+merge: bug-fix-typo - not something we can merge
