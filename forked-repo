@@ -1,0 +1,9 @@
+
+PS C:\WINDOWS\System32> curl.exe -s https://api.github.com/repos/janhavithopate24/mcino-Introduction-to-Git-and-GitHub-task | ConvertFrom-Json | Select-Object fork,@{Name="parent";Expression={$_.parent.full_name}}
+
+fork parent
+---- ------
+True ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+
+PS C:\WINDOWS\System32>
