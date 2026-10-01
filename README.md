@@ -18,3 +18,7 @@ _© 2022 XYZ, Inc._
 ## Bug Fix
 
 Typo correction for the project documentation.
+
+## Pull Request Change
+
+This change is submitted for the bug-fix-revert pull request.
