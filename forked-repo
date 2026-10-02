@@ -1,0 +1,5 @@
+$ curl -fsSL https://api.github.com/repos/Wahab-Adil/mcino-Introduction-to-Git-and-GitHub | python3 -c 'import json,sys; d=json.load(sys.stdin); p=d.get("parent") or {}; print("repository:", d["full_name"]); print("public:", not d["private"]); print("fork:", d["fork"]); print("parent:", p.get("full_name", "none"))'
+repository: Wahab-Adil/mcino-Introduction-to-Git-and-GitHub
+public: True
+fork: True
+parent: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
