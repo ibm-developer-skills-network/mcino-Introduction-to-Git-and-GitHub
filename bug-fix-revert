@@ -1,0 +1,11 @@
+$ curl -fsSL https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/11962 | python3 -c 'import json,sys; d=json.load(sys.stdin); print("pull_request:", d["number"]); print("url:", d["html_url"]); print("state:", d["state"]); print("merged:", d["merged"]); print("head_repository:", d["head"]["repo"]["full_name"] if d["head"].get("repo") else "none"); print("head_branch:", d["head"]["ref"]); print("base_repository:", d["base"]["repo"]["full_name"] if d["base"].get("repo") else "none"); print("base_branch:", d["base"]["ref"]); print("mergeable:", d["mergeable"]); print("merge_state:", d.get("mergeable_state"))'
+pull_request: 11962
+url: https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/11962
+state: closed
+merged: False
+head_repository: Wahab-Adil/mcino-Introduction-to-Git-and-GitHub
+head_branch: arena/01a0fa3f-mcino-introduction-to-git-and
+base_repository: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+base_branch: main
+mergeable: True
+merge_state: clean
