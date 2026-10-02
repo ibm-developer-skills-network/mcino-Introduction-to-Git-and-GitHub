@@ -1,0 +1,6 @@
+$ git branch -avv
+* arena/01a0fa3f-mcino-introduction-to-git-and                d2a0b0d [origin/arena/01a0fa3f-mcino-introduction-to-git-and] Improve project docs and simple interest calculator
+  main                                                        d1abb06 [origin/main] Fix typo in simple interest formula
+  remotes/origin/HEAD                                         -> origin/main
+  remotes/origin/arena/01a0fa3f-mcino-introduction-to-git-and d2a0b0d Improve project docs and simple interest calculator
+  remotes/origin/main                                         d1abb06 Fix typo in simple interest formula
