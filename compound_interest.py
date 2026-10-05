@@ -1,6 +1,6 @@
 # This script calculates yearly compound interest given principal, annual rate of interest and time period in years.
 # Do not use this in production. Sample purpose only.
-
+#A line of comment was added since the code is intact    bug-fix-typo
 # Author: Upkar Lidder (IBM)
 
 # Input:
