@@ -1,1 +1,2 @@
 This file fixes a typographical error.
+Revert verification example.
