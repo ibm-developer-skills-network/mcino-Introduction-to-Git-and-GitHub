@@ -14,3 +14,7 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+## Documentation Update
+
+Updated documentation for the Git and GitHub practice exercise.
