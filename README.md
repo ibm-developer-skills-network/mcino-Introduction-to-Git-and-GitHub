@@ -3,6 +3,7 @@
 ## Simple Interest Calculator
 
 A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+Enter the annual rate as a percentage (for example, 5 for 5%) and the time period in years.
 
 ```
 Input:
