@@ -15,3 +15,4 @@ Output
 
 _© 2022 XYZ, Inc._
 This repository contains a simple interest calculator.
+Updated project documentation.
