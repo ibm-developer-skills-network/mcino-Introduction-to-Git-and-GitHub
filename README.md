@@ -13,4 +13,11 @@ Output
    simple interest = p*t*r
 ```
 
-_© 2022 XYZ, Inc._
+_© 2023 XYZ, Inc._
+git add README.md
+git commit -m "Update footer year to 2023"
+
+git add README.md
+git commit -m "Update footer year to 2023"
+
+
