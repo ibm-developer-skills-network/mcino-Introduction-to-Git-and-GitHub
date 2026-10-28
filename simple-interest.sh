@@ -13,6 +13,7 @@
 
 # Output:
 # simple interest = p*t*r
+# Test
 
 echo "Enter the principal:"
 read p
@@ -24,4 +25,4 @@ read t
 s=$(expr $p \* $t \* $r / 100)
 echo "The simple interest is: "
 echo $s
-haii
+
