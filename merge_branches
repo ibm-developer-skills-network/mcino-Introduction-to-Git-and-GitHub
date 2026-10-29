@@ -1,0 +1,24 @@
+ASUS@LAPTOP-LOJ6OOQI MINGW64 ~ (main)
+$ git clone https://github.com/1005Manasvi/mcino-Introduction-to-Git-and-GitHub.git
+Cloning into 'mcino-Introduction-to-Git-and-GitHub'...
+remote: Enumerating objects: 38, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 38 (delta 0), reused 0 (delta 0), pack-reused 35 (from 1)
+Receiving objects: 100% (38/38), 20.74 KiB | 2.59 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+ASUS@LAPTOP-LOJ6OOQI MINGW64 ~ (main)
+$ cd mcino-Introduction-to-Git-and-GitHub
+
+ASUS@LAPTOP-LOJ6OOQI MINGW64 ~/mcino-Introduction-to-Git-and-GitHub (main)
+$ git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+ASUS@LAPTOP-LOJ6OOQI MINGW64 ~/mcino-Introduction-to-Git-and-GitHub (main)
+$ git merge bug-fix-typo
+merge: bug-fix-typo - not something we can merge
+
+ASUS@LAPTOP-LOJ6OOQI MINGW64 ~/mcino-Introduction-to-Git-and-GitHub (main)
+$
