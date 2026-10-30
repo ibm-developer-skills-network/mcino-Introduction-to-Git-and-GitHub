@@ -1,0 +1,4 @@
+PS C:\Users\acer\Downloads\mcino-Introduction-to-Git-and-GitHub> git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
