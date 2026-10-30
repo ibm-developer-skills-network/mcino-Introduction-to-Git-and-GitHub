@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Simple Interest Calculator
+# Calculate simple interest accurately
 
 echo "Enter the principal amount:"
 read p
