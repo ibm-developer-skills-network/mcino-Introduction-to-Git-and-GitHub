@@ -1,0 +1,18 @@
+Git Branch Merge
+
+Command 1:
+git checkout main
+
+Command 2:
+git merge bug-fix-typo
+
+Merge result:
+Fast-forward merge successful.
+
+Commit merged:
+a57351e Fix typo in README
+
+Files changed:
+README.md
+
+Merge completed successfully without conflicts.
