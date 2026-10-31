@@ -1,4 +1,6 @@
-# Introduction to Git and GitHub
+# Introduction to Git and GitHub – Final Project
+
+A simple interest calculator project developed as part of the IBM Introduction to Git and GitHub course.
 
 ## Simple Interest Calculator
 
@@ -9,7 +11,7 @@ Input:
    p, principal amount
    t, time period in years
    r, annual rate of interest
-Output
+Output:
    simple interest = p*t*r
 ```
 
