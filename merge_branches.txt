@@ -1,0 +1,59 @@
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git status                                                                     
+
+On branch bug-fix-typo
+
+nothing to commit, working tree clean
+
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git push origin bug-fix-typo
+
+Enumerating objects: 8, done.
+
+Counting objects: 100% (8/8), done.
+
+Delta compression using up to 16 threads
+
+Compressing objects: 100% (6/6), done.
+
+Writing objects: 100% (6/6), 555 bytes | 555.00 KiB/s, done.
+
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+
+remote: 
+
+remote: Create a pull request for 'bug-fix-typo' on GitHub by visiting:
+
+remote:      https://github.com/Bhavya-V376/mcino-Introduction-to-Git-and-GitHub/pull/new/bug-fix-typo
+
+remote: 
+
+To https://github.com/Bhavya-V376/mcino-Introduction-to-Git-and-GitHub.git
+
+ * [new branch]      bug-fix-typo -> bug-fix-typo
+
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git checkout main
+
+Switched to branch 'main'
+
+Your branch is up to date with 'origin/main'.
+
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git merge bug-fix-typo
+
+Updating ad95b0a..ee29ae7
+
+Fast-forward
+
+ README.md | 2 +-
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git checkout main     
+
+Already on 'main'
+
+Your branch is ahead of 'origin/main' by 2 commits.
+
+  (use "git push" to publish your local commits)
+
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git checkout bug-fix-typo     
