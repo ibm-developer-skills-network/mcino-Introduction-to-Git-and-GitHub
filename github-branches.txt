@@ -1,0 +1,4 @@
+PS C:\My_Folder\Git_Learn\mcino-Introduction-to-Git-and-GitHub> git branch -vv
+* bug-fix-revert 3cfc5ee [origin/bug-fix-revert] Revert "Update README.md"
+  bug-fix-typo   cdeecd2 New file added
+  main           ee29ae7 [origin/main] Edited 2022 to 2023
