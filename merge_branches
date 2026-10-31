@@ -1,0 +1,10 @@
+git checkout main
+Your branch is ahead of 'origin/main' by 1 commit.
+
+git merge bug-fix-typo
+Already up to date.
+
+git show --stat --oneline HEAD
+3522ba0 Fix typo in simple interest script
+simple-interest.sh | 2 +-
+1 file changed, 1 insertion(+), 1 deletion(-)
