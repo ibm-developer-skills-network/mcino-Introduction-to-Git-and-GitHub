@@ -4,7 +4,7 @@ A simple interest calculator project developed as part of the IBM Introduction t
 
 ## Simple Interest Calculator
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+A calculator that calculates and outputs simple interest given principal, annual rate of interest and time period in years.
 
 ```
 Input:
