@@ -1,0 +1,6 @@
+git branch -av
+  bug-fix-typo                49c30b3 [ahead 2] Revert "Added new linke in README.md"
+* main                        e2c21a9 Added new file bug-fix-revert
+  remotes/origin/HEAD         -> origin/main
+  remotes/origin/bug-fix-typo 66b2292 Updated README file
+  remotes/origin/main         e2c21a9 Added new file bug-fix-revert
