@@ -14,4 +14,3 @@ Output
 ```
 
 2023 XYZ, Inc.
-#Added New update"
