@@ -1,0 +1,16 @@
+curl https://api.github.com/repos/sec24cs235-source/giassi
+
+{
+  "name": "giassi",
+  "full_name": "sec24cs235-source/giassi",
+  "description": "Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  },
+  "source": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
