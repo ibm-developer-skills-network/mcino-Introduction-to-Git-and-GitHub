@@ -1,5 +1,6 @@
 # Introduction to Git and GitHub
-
+# mcino-Introduction-to-Git-and-GitHub
+A project demonstrating Git and GitHub fundamentals, version control, branching, and bash scripting.
 ## Simple Interest Calculator
 
 A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
