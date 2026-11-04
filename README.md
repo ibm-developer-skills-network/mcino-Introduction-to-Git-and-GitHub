@@ -36,3 +36,5 @@ The Simple Interest Calculator is a simple Bash-based application that calculate
 ## Author
 
 Eng-Muhammad-Ishaq
+
+Bug-fix branch update for merge demonstration.
