@@ -1,0 +1,9 @@
+Command (run in Windows PowerShell):
+
+curl.exe -L -sS https://api.github.com/repos/thoughtsmy25-prog/mcino-Introduction-to-Git-and-GitHub | ConvertFrom-Json | ForEach-Object { "Repository: $($_.full_name)"; "Fork: $($_.fork)"; "Parent: $($_.parent.full_name)" }
+
+Terminal output:
+
+Repository: thoughtsmy25-prog/mcino-Introduction-to-Git-and-GitHub
+Fork: True
+Parent: ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
