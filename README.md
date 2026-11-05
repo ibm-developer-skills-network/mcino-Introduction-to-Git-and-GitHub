@@ -3,7 +3,7 @@
 A Bash script (`simple-interest.sh`) that calculates simple interest
 based on user input.
 
-## Inputs
+## Input
 - Principal amount
 - Rate of interest (% per annum)
 - Time period (in years)
