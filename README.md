@@ -15,3 +15,4 @@ Output
 
 _© 2022 XYZ, Inc._
 This repository contains Git and GitHub practice exercises.
+Updated documentation for the GitHub project.
