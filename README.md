@@ -25,3 +25,4 @@ For principal `1000`, rate `5`, and time `2`, the simple interest is `100.00`.
 - `LICENSE` – Apache License 2.0.
 - `CODE_OF_CONDUCT.md` – Community conduct guidelines.
 - `CONTRIBUTING.md` – Contribution instructions.
+This project provides a simple interest calculator using Bash.
