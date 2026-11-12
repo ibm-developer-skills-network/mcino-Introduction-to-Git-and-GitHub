@@ -1,7 +1,7 @@
 # Simple Interest Calculator
 
 ## Project Description
-A simple command-line calculator built using Bash scripting to calculate simple interest based on user-provided values.
+A simple command-line calculator tool built using Bash scripting to calculate simple interest based on user-provided values.
 
 ## Features
 - Enter principal amount.
