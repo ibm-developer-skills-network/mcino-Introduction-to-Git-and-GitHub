@@ -15,4 +15,4 @@ Output
 
 _© 2022 XYZ, Inc._
 
-This project demonstrates simple interest calculation.
+This project demonstrates simple interest calculation.Simple Interest Calculator - Bash implementation.
