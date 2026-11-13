@@ -17,3 +17,4 @@ _© 2022 XYZ, Inc._
 
 This project demonstrates simple interest calculation.Simple Interest Calculator - Bash implementation.
 Simple interest calculation example.
+Simple interest example for testing Git merge.
