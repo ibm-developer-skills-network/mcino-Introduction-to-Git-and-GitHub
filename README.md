@@ -9,7 +9,7 @@ Input:
    p, principal amount
    t, time period in years
    r, annual rate of interest
-Output this is my test change for the lap 
+Output
    simple interest = p*t*r
 ```
 
