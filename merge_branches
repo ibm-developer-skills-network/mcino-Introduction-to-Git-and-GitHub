@@ -1,0 +1,5 @@
+git checkout main
+
+git merge bug-fix-typo
+
+[Paste your actual terminal output here, including the line showing 1 file changed]
