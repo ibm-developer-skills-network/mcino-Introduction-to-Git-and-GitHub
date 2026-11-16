@@ -1,3 +1,4 @@
+# Bug fix revert workflow
 #!/bin/bash
 # This script calculates simple interest given principal, annual rate of interest and time period in years.
 # Do not use this in production. Sample purpose only.
@@ -50,3 +51,4 @@ s=$(expr $p \* $t \* $r / 100 2>/dev/null || awk -v p="$p" -v r="$r" -v t="$t" '
 
 echo "The simple interest is: "
 echo $s
+
