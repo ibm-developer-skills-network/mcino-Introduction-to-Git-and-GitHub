@@ -1,0 +1,3 @@
+Command: curl.exe -s https://api.github.com/repos/bitishathapaa02/mcino-Introduction-to-Git-and-GitHub | ConvertFrom-Json | Select-Object full_name, fork, @{Name="parent";Expression={$_.parent.full_name}}
+
+Terminal Output: full_name : bitishathapaa02/mcino-Introduction-to-Git-and-GitHub fork : True parent : ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
