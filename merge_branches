@@ -1,0 +1,16 @@
+﻿$ git checkout main
+Your branch is up to date with 'origin/main'.
+git : Already on 'main'
+At line:2 char:115
++ ... e += '$ git checkout main'; $merge += (git checkout main 2>&1 | Out-S ...
++                                            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Already on 'main':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+$ git merge bug-fix-typo
+git : merge: bug-fix-typo - not something we can merge
+At line:2 char:226
++ ... t merge bug-fix-typo'; $merge += (git merge bug-fix-typo 2>&1 | Out-S ...
++                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (merge: bug-fix-...ng we can merge:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
