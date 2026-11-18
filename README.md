@@ -14,3 +14,6 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+## Contribution
+
+Contributions, bug reports, documentation improvements, and suggestions are welcome.
