@@ -1,6 +1,6 @@
 # Simple Interest Calculator
 
-A simple bash-based calculator that calculates simple interest given the principal amount, annual rate of interest, and time period in years.
+A simple bash-based calculator that calculates simple interest given principal amount, annual rate of interest, and time period in years.
 
 ## Formula
 ```text
