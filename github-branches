@@ -1,4 +1,4 @@
-$ git branch
+]633;E;{ echo '$ git branch'\x3b git branch\x3b  echo\x3b echo '$ git branch -a'\x3b git branch -a\x3b  echo\x3b echo '$ git status'\x3b git status\x3b } > /tmp/github-branches.txt;251dc86f-3d2d-40ea-b0fa-5c3bc1b441f7]633;C$ git branch
   bug-fix-typo
 * main
 
@@ -15,8 +15,4 @@ $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	tatus'
-
-nothing added to commit but untracked files present (use "git add" to track)
+nothing to commit, working tree clean
