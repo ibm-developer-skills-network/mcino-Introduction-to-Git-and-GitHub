@@ -1,10 +1,15 @@
-﻿$ git branch
+$ git branch
+  bug-fix-typo
 * main
 
 $ git branch -a
+  bug-fix-typo
 * main
   remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-typo
   remotes/origin/main
+  remotes/upstream/HEAD -> upstream/main
+  remotes/upstream/main
 
 $ git status
 On branch main
@@ -12,8 +17,6 @@ Your branch is up to date with 'origin/main'.
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-	bug-fix-revert
-	forked-repo
-	merge_branches
+	tatus'
 
 nothing added to commit but untracked files present (use "git add" to track)
