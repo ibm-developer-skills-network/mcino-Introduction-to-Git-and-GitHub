@@ -1,1 +1,8 @@
 curl.exe -L "https://api.github.com/repos/bhomikhavise-ai/mcino-Introduction-to-Git-and-GitHub"
+
+{
+  "id": 1464321182,
+  "node_id": "R_kgDOV0fEng",
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  ...
+}
