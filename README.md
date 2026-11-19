@@ -14,3 +14,6 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+
+## Documentation Update
+Clarified the simple interest calculator instructions.
