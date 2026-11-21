@@ -14,5 +14,3 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
-
-This repository contains resources for learning Git and GitHub.
