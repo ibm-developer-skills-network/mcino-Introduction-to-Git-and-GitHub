@@ -1,0 +1,7 @@
+git checkout main
+Already on 'main'
+
+git merge bug-fix-typo
+Updating ...
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
