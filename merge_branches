@@ -1,0 +1,12 @@
+```bash
+git checkout main
+git merge bug-fix-typo
+```
+
+```text
+Updating d74ef21..1ca6c27
+Fast-forward
+bug-fix.txt | 1 +
+1 file changed, 1 insertion(+)
+create mode 100644 bug-fix.txt
+```
