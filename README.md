@@ -14,3 +14,4 @@ Output
 ```
 
 _© 2022 XYZ, Inc._
+This project demonstrates how to calculate simple interest using Bash.
