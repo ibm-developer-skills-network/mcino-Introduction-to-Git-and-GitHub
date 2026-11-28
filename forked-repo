@@ -1,0 +1,10 @@
+$ curl -s https://api.github.com/repos/Nebiyu-6249/mcino-introduction-to-git-and-github | python3 -m json.tool
+
+{
+  "full_name": "Nebiyu-6249/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+  }
+}
